@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background: #1f7878;
+    background-repeat: no-repeat;
+    -webkit-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.buttonsWrapper {
+    margin: 20px 20px;
+}
+
+.buttonsWrapper a {
+    padding: 5px;
+}
+
+.buttonsWrapper input {
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.searchWrapper {
+    padding: 5px 0;
+    margin: 20px 0;
+}
+
+input.searchBar {
+    padding: inherit;
+    width: 50%;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+button.btnSearch {
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+.video div {
+    display: inline;
+    margin: 5px;
+}
+
+.video > div:first-child {
+    background: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    padding: 5px;
+    border-radius: 5px 5px;
+    color: white;
+}
+
+.video.displayed {
+    background-color: rgba(1,1,1,0.2);
+    min-height: 70%;
+    transition: all 0.5s;
+}
+
+.video.displayed:hover {    
+    box-shadow: 0px 0px 5px 3px;
+}
+
+.video.displayed div {
+    display: block;
+}
+
+.video.displayed a {
+    color: white;
+    font-family: cursive;
+}
+
+.currDisplayPage {
+    display: inline;
+}
+
+img.preview {
+    width: 100%;
+    height: 100px;
+}
+
+.list-cache > .displayed {
+    min-width: 15%;
+    width: 10%;
+    min-height: 600px;
+    display: inline-block;
+    border: 1px solid;
+    vertical-align: top;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.video {
+    display: none;
+}
+
+.videoInfo {
+    border: 1px groove;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.videoInfo p {
+    margin: 0;
+}
+
+.list-cache p {
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.inactive {
+    display: none;
+}
+
+.but {
+    border-radius: 50%;
+    color: transparent;
+}
+
+.buttonsWrapper .tooltipNum {
+    background: #2f8fcd;
+    color: #edd2d2;
+}
+
+@media only screen and (max-width: 1200px) {
+    .list-cache > .displayed {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .list-cache > .displayed {
+        width: 50%;
+    }
+}
