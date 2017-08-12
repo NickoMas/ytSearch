@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     color: white;
-    background: #1f7878;
+    background: #2a3a3a;
     background-repeat: no-repeat;
     -webkit-user-select: none;
        -moz-user-select: -moz-none;
@@ -61,7 +61,7 @@ button.btnSearch {
     transition: all 0.5s;
 }
 
-.video.displayed:hover {    
+.video.displayed:hover {
     box-shadow: 0px 0px 5px 3px;
 }
 
